@@ -1,0 +1,323 @@
+@font-face {
+    font-family: 'questaregular';
+    src: url('../fonts/2-questa_regular-webfont.woff2') format('woff2'),
+         url('../fonts/2-questa_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hidden {
+	display:none;
+}
+
+body {
+	font-family: 'questaregular', times, serif;
+}
+
+span {
+  float: left;
+  width: 0.7em;
+  font-size: 550%;
+  line-height: 85%;
+}
+
+#container {
+	width: 1250px;
+	margin: 0 auto;
+}
+
+/*.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	height: 700px;
+}*/
+
+/* HEADER ===========================================================================*/
+
+#dispenser {
+	width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 980px;
+  height: 120px;
+  background-color: #000;
+  padding: 40px;
+  opacity: 0.8;
+  font-size: 115px;
+  color: #fff;
+  text-align: center;
+}
+
+/* INTRO ============================================================================*/
+
+#intro {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 250px;
+	margin-bottom: 250px;
+}
+
+#introParagraph {
+	width: 600px;
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+.ih {
+	font-weight: bold;
+	line-height: 1.4;
+	text-align: left;
+	font-size: 40px;
+	color: #aa7100;
+}
+
+.ip {
+	font-weight: bold;
+	line-height: 1.6;
+	text-align: left;
+	margin-top: 40px;
+	font-size: 24px;
+	color: #000;
+}
+
+
+#introImg {
+	margin-left: 20px;
+	margin-right: auto;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  	filter: drop-shadow(5px 5px 5px #222);
+}
+
+/* A GREEN HARPOON ==================================================================*/
+
+#green1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 250px;
+}
+
+#greenImg {
+	margin-right: 20px;
+	margin-left: auto;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  	filter: drop-shadow(5px 5px 5px #222);
+}
+
+#greenP1 {
+	width: 600px;
+	margin-right: auto;
+	margin-left: 20px;
+}
+
+.gh {
+	font-weight: bold;
+	line-height: 1.4;
+	text-align: left;
+	font-size: 40px;
+	color: #008958;
+}
+
+.gp1 {
+	font-weight: bold;
+	line-height: 1.7;
+	text-align: left;
+	margin-top: 40px;
+	font-size: 24px;
+	color: #000;
+}
+
+#green2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 250px;
+}
+
+#greenP2 {
+	width: 1240px;
+}
+
+.gp2 {
+	font-weight: bold;
+	line-height: 1.7;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 25px;
+	color: #000;
+}
+
+/* A BREWERS RESERVE ================================================================*/
+
+#brewers1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 250px;
+}
+
+#brewersP1 {
+	width: 1240px;
+}
+
+.bh {
+	font-weight: bold;
+	line-height: 1.4;
+	text-align: left;
+	font-size: 40px;
+	color: #633d00;
+}
+
+.bp1 {
+	font-weight: bold;
+	line-height: 1.7;
+	text-align: justify;
+	margin-top: 40px;
+	font-size: 25px;
+	color: #000;
+}
+
+#brewers2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 50px;
+	margin-bottom: 250px;
+}
+
+#brewersP2 {
+	width: 570px;
+	margin-left: auto;
+	margin-right: 50px;
+}
+
+.bp2 {
+	font-weight: bold;
+	line-height: 1.7;
+	text-align: justify;
+	margin-top: 40px;
+	font-size: 24px;
+	color: #000;
+}
+
+#brewersP3 {
+	width: 570px;
+	margin-right: auto;
+	margin-left: 50px;
+}
+
+.bp3 {
+	font-weight: bold;
+	line-height: 1.6;
+	text-align: justify;
+	margin-top: 40px;
+	font-size: 24px;
+	color: #000;
+}
+
+/* THE INFECTED WOLVERINE BEER ======================================================*/
+
+#wolverine {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 250px;
+	margin-bottom: 250px;
+}
+
+#wolverineP {
+	width: 600px;
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+.wh {
+	font-weight: bold;
+	line-height: 1.4;
+	text-align: left;
+	font-size: 37px;
+	color: #9b0000;
+}
+
+.wp {
+	font-weight: bold;
+	line-height: 1.7;
+	text-align: left;
+	margin-top: 40px;
+	font-size: 24px;
+	color: #000;
+}
+
+
+#wolverineImg {
+	margin-left: 20px;
+	margin-right: auto;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  	filter: drop-shadow(5px 5px 5px #222);
+}
+
+/* CONCLUSIONS ======================================================================*/
+
+#conclusions {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 350px;
+	margin-bottom: 250px;
+}
+
+#conclusionsImg {
+	margin-right: 20px;
+	margin-left: auto;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  	filter: drop-shadow(5px 5px 5px #222);
+}
+
+#conclusionsP {
+	width: 600px;
+	margin-right: auto;
+	margin-left: 20px;
+}
+
+.ch {
+	font-weight: bold;
+	line-height: 1.4;
+	text-align: left;
+	font-size: 40px;
+	color: #dda414;
+}
+
+.cp {
+	font-weight: bold;
+	line-height: 2.2;
+	text-align: left;
+	margin-top: 40px;
+	font-size: 24px;
+	color: #000;
+}
+
+/* COPYRIGHT ========================================================================*/
+
+.bottomBar {
+	height: 45px;
+	background-color: #000;
+}
+
+.copyright {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.copyright p {
+	font-weight: bold;
+	color: #000;
+}
